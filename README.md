@@ -10,7 +10,7 @@ The other role is admin. The admin can add new movies to the list, delete old on
 
 Online Movie Ticket booking system is generally used to book a ticket online prior to the match. The main intention of developing an online interface is to replace the traditional and difficult way of buying tickets by standing in lengthy queues for hours.
 
-    • OBJECTIVE :
+    • OBJECTIVE
 
 The aim of developing online movie stadium ticket booking system is to introduce an online interface that enables the customers to book tickets online. It provides many facilities like checking the booking history, update details, book movie tickets.
 
