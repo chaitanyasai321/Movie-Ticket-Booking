@@ -1,0 +1,81 @@
+body {
+    margin:0;
+    padding:0;
+    background: url('images/img4.jpg');
+    background-size:cover;
+    font-family:sans-serif;
+    background-repeat: no-repeat;
+}
+.forget{
+    width:400px;
+    height:500px;
+    background:transparent;
+    background:black;
+    color:white;
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 10%;
+    padding: 50px 30px 70px 30px;
+}
+
+.forget h2
+{
+    margin:0px;
+    padding : 0px 0px 0px 0px;
+    border-top: 0px;
+    border-bottom: 20px;
+    text-align:center;
+    top:-30%;
+    font-size:22px;
+}
+.forget p{
+    margin-bottom:30px;
+    padding : 0px;
+}
+.forget input{
+    width:100%;
+    margin-bottom: 30px;
+}
+
+.forget input[type="email"]
+{
+    border : none;
+    border-bottom:1.5px solid #fff;
+    background : transparent;
+    outline:none;
+    height:40px;
+    font-size:19px;
+    color: white;
+
+}
+.forget input[type="submit"]
+{
+    border:none;
+    outline:none;
+    height:50px;
+    background: red;
+    color:white;
+    font-size:30px;
+    border-radius:20px;
+}
+.forget input[type="submit"]:hover
+{
+    cursor:pointer;
+    background: black;
+    border: 2px white solid;
+    colour:white;
+}
+.forget a{
+    text-decoration: none;
+    font-size:17px;
+    line-height: 22px;
+    color: darkgrey;
+
+}
+.forget a:hover
+{
+    color:goldenrod;
+}

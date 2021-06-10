@@ -1,0 +1,131 @@
+body{
+    margin:0;
+    padding:0;
+    background: url('images/img4.jpg');
+    /*background-color: skyblue;*/
+    background-size:close;
+    font-family:sans-serif;
+    background-repeat: no-repeat;
+}
+.creates
+{
+    width:400px;
+    height:900px;
+    background:transparent;
+    background:black;
+    color:white;
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    /*background:white;
+    opacity: 0.93;
+    color:black;
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 5px;*/
+    padding: 30px 30px 40px 30px;
+}
+.creates h2
+{
+    text-align: center;
+    font-size: 45px;
+    margin:0px;
+    padding:0px 0px  20px ;
+    padding-bottom: 30px;
+}
+.creates p
+{
+    margin:0px;
+    font-weight: bold;
+    padding:0px 2px 8px 0px;
+    text-align:left;
+}
+.creates input
+{
+    width: 30%;
+    margin-bottom: 40px;
+
+}
+.creates input[type="text"],input[type="password"],input[type="email"]
+{
+
+    border : none;
+    border-bottom:1px solid #fff;
+    background : transparent;
+    outline:none;
+    width:350px;
+    height:25px;
+    font-size:19px;
+    color: white;
+}
+
+.creates input[type="submit"]
+{
+    border:none;
+    outline:none;
+    height:50px;
+    font-weight: bold;
+    width:50%;
+    background-color:red ;
+    font-size:22px;
+    margin-bottom: 0px;
+    color:white;
+    border-radius:20px;
+}
+.creates input[type="submit"]:hover
+{
+    cursor:pointer;
+    background: black;
+    border: 2px white solid;
+    color:white;
+    border-radius: 10px;
+}
+.creates h3
+{
+    margin-bottom: 5px;
+}
+.creates a{
+    text-decoration: none;
+    font-size:20px;
+    font-weight: bold;
+    line-height: 0%;
+    color: rgb(12, 111, 240);
+    margin-top:0px
+    
+}
+.creates a:hover
+{
+    color:red;
+}
+.creates select
+{
+    margin:0px;
+    width:50%;
+    margin-bottom: 20px;
+}
+.creates option{
+    background-color: black;
+    color:white;
+    padding:3px;
+    font-size: 15px;
+    font-weight: bold;
+    border:solid 1px white;
+}
+.creates option:hover
+{
+    background-color: white;
+    color:black;
+}
+.creates option:visited
+{
+    background:red;
+    color:white;
+
+}

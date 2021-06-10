@@ -1,0 +1,122 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background: url('images/im1.jpg');
+    /*background-color: skyblue;*/
+    background-size:cover;
+    font-family:sans-serif;
+    background-repeat: no-repeat;
+}
+hr
+{
+    border-width: 2px;
+}
+h1
+{
+    font-family:'Times New Roman', Times, serif;
+    padding:5px;
+    font-size: 40px;
+}
+.down{
+    width:1280px;
+    height:950px;
+    background:transparent;
+    background:black;
+    color:white;
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 30px 30px 40px 30px;
+}
+.down ul
+{
+    list-style: none;
+    margin-top: 2%;
+    padding:0px;
+    margin-bottom:100px;
+}
+.down ul li
+{
+    background:white;
+    width:145px;
+    color:black;
+    border:2px solid black;
+    font-weight: bold;
+    position: relative;
+    height:50px;
+    font-size: 12px;
+    line-height: 50px;
+    text-align: center;
+    float:left;
+    margin-top: 0px;
+}
+.down ul li:hover
+{
+    background:crimson;
+}
+
+.creates
+{
+    background:transparent;
+    background:black;
+    color:white;
+    top:60%;
+    left:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 30px 30px 40px 30px;
+}
+h2
+{
+    margin-bottom: 20px;
+}
+
+.creates input
+{
+    width: 30%;
+    margin-bottom: 40px;
+
+}
+.creates input[type="text"],input[type="password"],input[type="email"]
+{
+
+    border : none;
+    border-bottom:1px solid #fff;
+    background : transparent;
+    outline:none;
+    width:350px;
+    height:25px;
+    font-size:19px;
+    color: red;
+    font-weight: bold;
+}
+
+.creates input[type="submit"]
+{
+    border:none;
+    outline:none;
+    height:50px;
+    font-weight: bold;
+    width:170px;
+    background-color:red ;
+    font-size:22px;
+    margin-bottom: 0px;
+    color:white;
+    border-radius:20px;
+}
+.creates input[type="submit"]:hover
+{
+    cursor:pointer;
+    background: black;
+    border: 2px white solid;
+    colour:white;
+    border-radius: 10px;
+}
